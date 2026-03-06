@@ -1,6 +1,7 @@
 # 自动化资源监控工具
 
 一个用于自动化监控和获取受限资源的Python工具，适用于高并发场景下的资源分配系统。
+This is to solve the problem where students can't compete with others when booking a specific type of accommodation in XEC dormitories, such as 4‑person rooms. That's why I made a Python program that automatically sends requests. It was tested in practice last year and proven to work.
 
 ## 项目简介
 
