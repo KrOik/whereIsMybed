@@ -1,0 +1,17 @@
+curl ^"https://hive.xjtlu.edu.cn/hive-api/client/seckill/getSeckillRooms^" ^
+  -H ^"accept: */*^" ^
+  -H ^"accept-language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6^" ^
+  -H ^"content-type: application/json^" ^
+  -b ^"session_id=YOUR_SESSION_ID; tracking_data=example123^" ^
+  -H ^"origin: https://hive.xjtlu.edu.cn^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://hive.xjtlu.edu.cn/pc/pages/student-party/get-room^" ^
+  -H ^"sec-ch-ua: ^\^"Chromium^\^";v=^\^"136^\^", ^\^"Microsoft Edge^\^";v=^\^"136^\^", ^\^"Not.A/Brand^\^";v=^\^"99^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0^" ^
+  -H ^"x-access-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.YOUR_FAKE_TOKEN_REPLACE_WITH_YOURS^" ^
+  --data-raw ^"^{^\^"seckillId^\^":^\^"1921761635601006594^\^",^\^"floorId^\^":^\^"1921761823254167553^\^"^}^"
