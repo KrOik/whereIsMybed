@@ -1,0 +1,13 @@
+# Configuration File for XEC Apartment Room-Booking Script
+# Do NOT submit this file to version control systems
+
+# JWT访问令牌 (从浏览器开发者工具中获取)
+# 获取方法：登录 https://hive.xjtlu.edu.cn 后，F12打开开发者工具，查看任意请求的 x-access-token 值
+ACCESS_TOKEN=eyJ0eFFFFFFFFFFFsZyI6ICJIUzI1NiJ9.eyJleHAiOiA5OTk5OTk5OTk5LCAidXNFFFFFFFUiOiAiWU9VUl9VUFFFFFFFFNRSJ9.U-CdSnsBfqbzld-JEEOh0GR9PuaR66hZW5zqihPFFFF 
+
+# Cookies字符串 (从浏览器开发者工具中获取)
+# 获取方法：在开发者工具的 Network 标签中，查看请求的 Cookie 值
+COOKIES=session_id=EXw2ueQuvXx8kiKy9r2g2iwLmWAXpcWN; user_token=FFFFFFFFFl1K30kKCPQpGUJMTJsKTarebQYJFFFFFFFFFFFFFqx0KSZFgiJo66M; _ga=GA1.1.1474315073.2216989481; tracking_id=oFFFFFFFFFFgOg5zG2pV0xM1N9oBLJyfaRODsD
+
+# 秒杀活动ID
+SECKILL_ID=1921761635601006594
